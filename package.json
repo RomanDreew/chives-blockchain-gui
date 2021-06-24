@@ -3,7 +3,6 @@
   "author": "Chives Network <chivescoin@gmail.com> (https://chivescoin.org/)",
   "description": "GUI for Chives Blockchain",
   "productName": "Chives Blockchain",
-  "productVersion": "1.1.5.0",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",
