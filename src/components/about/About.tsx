@@ -113,7 +113,7 @@ export default function About(props: Props) {
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
         <div className="copyright">
-          Copyright (c) 2021 Chia Network & Chivescoin
+          Copyright (c) 2021 Chia Network & Chives Network
         </div>
         <Spacer />
         <VersionsTable>
