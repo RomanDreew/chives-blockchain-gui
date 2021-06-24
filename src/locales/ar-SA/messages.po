@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ar_SA\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-19 15:22\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ar\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*هل ترغب في زيادة استكشاف Chia؟ تحقق من <0> Chia Explorer</0> التي بناها مطور مفتوح المصدر."
+msgstr "*هل ترغب في زيادة استكشاف Chives؟ تحقق من <0> Chives Explorer</0> التي بناها مطور مفتوح المصدر."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "الحصاد هو خدمة تعمل على الحاسوب حيث يتم 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "معلومات عن Chia Blockchain"
+msgstr "معلومات عن Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -269,15 +269,15 @@ msgstr "الدردشة على KeyBase"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "محفظة Chia"
+msgstr "محفظة Chives"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "تعديل"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "أدخل الـ 24 كلمة التي قمت بحفظها من أجل استعادة محفظة Chia الخاصة بك."
+msgstr "أدخل الـ 24 كلمة التي قمت بحفظها من أجل استعادة محفظة Chives الخاصة بك."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -606,7 +606,7 @@ msgstr "خطأ"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "خطأ: لا يمكن إرسال chia إلى عنوان العملات الملونة. الرجاء إدخال عنوان chia."
+msgstr "خطأ: لا يمكن إرسال chives إلى عنوان العملات الملونة. الرجاء إدخال عنوان chives."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1223,7 +1223,7 @@ msgstr "اجتاز تصفية المؤامرات"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "يتم تخصيص مساحة قطع الأراضي على محرك الأقراص الثابتة الخاص بك لاستخدامها في الزراعة وكسب Chia. <0> معرفة المزيد </0>"
+msgstr "يتم تخصيص مساحة قطع الأراضي على محرك الأقراص الثابتة الخاص بك لاستخدامها في الزراعة وكسب Chives. <0> معرفة المزيد </0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1545,7 +1545,7 @@ msgstr "طول الفاصل الزمني للإنفاق (عدد الكتل)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "حد الإنفاق (chia لكل فاصلة): {0}"
+msgstr "حد الإنفاق (chives لكل فاصلة): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"

@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ru_RU\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-16 05:31\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ru\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Хотите посмотреть больше информации о блоках Чиа? Загляните в обозреватель блоков <0>Chia Explorer</0>, созданный на основе открытого исходного кода."
+msgstr "*Хотите посмотреть больше информации о блоках Чиа? Загляните в обозреватель блоков <0>Chives Explorer</0>, созданный на основе открытого исходного кода."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "Комбайн - это служба, работающая на маши
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "О программе Chia Blockchain"
+msgstr "О программе Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "VDF итераций блока"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Блок на высоте {0} в блокчейне Chia"
+msgstr "Блок на высоте {0} в блокчейне Chives"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -353,7 +353,7 @@ msgstr ""
 "Шаг 2 - Выбранный участок проверяется на выигрышный хэш. Итак, в качестве примера - ваша система работает - есть 5 строк, если у вас 157 графиков - каждая из 5 строк читает 0/157. Если выбран график или второй график, это хорошая новость, и число изменится на 1/157 или 2/157, может быть, 3/157. После прохождения фильтра каждый выбранный участок будет проходить «качественный поиск», который выполняет примерно 7 считываний на вашем графике и сообщает вам, выиграли ли участки. Если вы выиграли, это не показывает никаких признаков, так как транзакция выполняется быстро. Ваш кошелек увеличивается.\n"
 "\n"
 "Как только это совпадение появится в первой строке, оно переместится вниз к строкам 2-5, затем, если другой график пройдет шаг 1, он также начнется сверху, amd переместится, выполнив процесс фильтрации.\n"
-"Выигрыши случаются очень редко: в среднем один человек во всем мире выигрывает каждые 18 секунд. На каждой точке указателя (9 секунд) все ваши участки проверяются, чтобы увидеть, какие из них проходят [фильтр поля]. (https://github.com/Chia-Network/chia-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it). Примерно 1/512 всех участков пройдут через фильтр в каждом испытании, поэтому здесь вы можете увидеть, сколько ваших участков прошло. Однако есть 4 608 шансов выиграть 2 чиа каждый день.\n"
+"Выигрыши случаются очень редко: в среднем один человек во всем мире выигрывает каждые 18 секунд. На каждой точке указателя (9 секунд) все ваши участки проверяются, чтобы увидеть, какие из них проходят [фильтр поля]. (https://github.com/Chia-Network/chives-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it). Примерно 1/512 всех участков пройдут через фильтр в каждом испытании, поэтому здесь вы можете увидеть, сколько ваших участков прошло. Однако есть 4 608 шансов выиграть 2 чиа каждый день.\n"
 "\n"
 "Если по какой-то причине эти строки перестают двигаться, это еще один признак того, что вы не синхронизированы с базой данных и вам необходимо выполнить повторную синхронизацию - см. Ниже.\n"
 "\n"
@@ -437,7 +437,7 @@ msgstr ""
 "   Если start-process не работает, попробуйте. .\\chia.exe plots create yourParametersGoHere\n"
 "\n"
 "Или добавьте путь\n"
-" \"%USERPROFILE%\\AppData\\Local\\chia-blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\"\n"
+" \"%USERPROFILE%\\AppData\\Local\\chives-blockchain\\app-1.0.5\\resources\\app.asar.unpacked\\daemon\"\n"
 "\n"
 "Чтобы добавить задержку между вашими параллельными процессами, вы можете поместить sleep <seconds> между каждой командой создания полей chia chia plots create , например чтобы отложить следующий процесс на час sleep 3600\n"
 "\n"
@@ -449,7 +449,7 @@ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Кошелек Chia"
+msgstr "Кошелек Chives"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -764,7 +764,7 @@ msgstr "Правка"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Введите мнемонику из 24 слов, которую вы сохранили, чтобы восстановить свой кошелек Chia."
+msgstr "Введите мнемонику из 24 слов, которую вы сохранили, чтобы восстановить свой кошелек Chives."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -778,7 +778,7 @@ msgstr "Ошибка"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Ошибка: не удается отправить чиа на цветной адрес. Пожалуйста, введите адрес chia."
+msgstr "Ошибка: не удается отправить чиа на цветной адрес. Пожалуйста, введите адрес chives."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1717,7 +1717,7 @@ msgstr "Длина интервала расходования (количест
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Лимит расходования (chia за интервал): {0}"
+msgstr "Лимит расходования (chives за интервал): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1918,7 +1918,7 @@ msgstr "Сделка была включена в блокчейн на указ
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Эта версия Chia больше не совместима с блокчейном и не может безопасно фармить."
+msgstr "Эта версия Chives больше не совместима с блокчейном и не может безопасно фармить."
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"

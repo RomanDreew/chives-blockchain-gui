@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sv_SE\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-16 11:27\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sv-SE\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Vill du utforska Chias block lite mer? Ta en titt på <0>Chia Explorer</0> som har skapats som öppen källkod av en utvecklare."
+msgstr "*Vill du utforska Chivess block lite mer? Ta en titt på <0>Chives Explorer</0> som har skapats som öppen källkod av en utvecklare."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "En skördare är en tjänst som körs på en maskin där plottar lagras.
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "Om Chia Blockchain"
+msgstr "Om Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "VDF-iterationer för block"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Block vid höjd {0} i Chia-blockkedjan"
+msgstr "Block vid höjd {0} i Chives-blockkedjan"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,15 +269,15 @@ msgstr "Chatta på KeyBase"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchains wiki"
+msgstr "Chives Blockchains wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Chia-plånbok"
+msgstr "Chives-plånbok"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "Redigera"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Skriv in din sparade minnesfras på 24 ord för att återställa din Chia-plånbok."
+msgstr "Skriv in din sparade minnesfras på 24 ord för att återställa din Chives-plånbok."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -606,7 +606,7 @@ msgstr "Fel"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Fel: det går inte att skicka chia till färgad adress. Ange en chia-adress."
+msgstr "Fel: det går inte att skicka chives till färgad adress. Ange en chives-adress."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1223,7 +1223,7 @@ msgstr "Plottar som passerat filtret"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Chia. <0>Läs mer</0>"
+msgstr "Plottar är reserverat utrymme på din hårddisk som används för att odla och tjäna Chives. <0>Läs mer</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1545,7 +1545,7 @@ msgstr "Längd på spenderintervall (antal block)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Spenderbegränsning (chia per intervall): {0}"
+msgstr "Spenderbegränsning (chives per intervall): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1698,7 +1698,7 @@ msgstr "Denna funktion kan bara användas från GUI."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Detta är den mängd Chia du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Chia som du just spenderat men som ännu inte finns i blockkedjan."
+msgstr "Detta är den mängd Chives du för tillfället kan använda för transaktioner. Det innefattar inte väntande odlingsbelöningar, väntande inkommande transaktioner eller Chives som du just spenderat men som ännu inte finns i blockkedjan."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1718,7 +1718,7 @@ msgstr "Detta är den tidpunkt då blocket skapades av odlaren, vilket är innan
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Detta är den sammanlagda mängden chia i blockkedjan vid det aktuella topp-underblocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
+msgstr "Detta är den sammanlagda mängden chives i blockkedjan vid det aktuella topp-underblocket som kontrolleras av dina privata nycklar. Det innefattar frusna odlingsbelöningar, men inte väntande inkommande och utgående transaktioner."
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1746,7 +1746,7 @@ msgstr "Denna affärstransaktion lades till i blockkedjan vid denna blockhöjd"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Denna version av Chia är inte längre kompatibel med blockkedjan och kan därför inte användas för odling."
+msgstr "Denna version av Chives är inte längre kompatibel med blockkedjan och kan därför inte användas för odling."
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"
@@ -1935,7 +1935,7 @@ msgstr "Plånböcker"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Vill du tjäna mer Chia? Lägg till fler plottar till din odling."
+msgstr "Vill du tjäna mer Chives? Lägg till fler plottar till din odling."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1951,7 +1951,7 @@ msgstr "Vikt är den sammanlagda svårighetsgraden för alla underblock upp till
 
 #: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Välkommen till Chia. Logga in med en existerande nyckel, eller skapa en ny nyckel."
+msgstr "Välkommen till Chives. Logga in med en existerande nyckel, eller skapa en ny nyckel."
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2068,7 +2068,7 @@ msgstr "{currencyCode} blockbelöningar"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Totalt antal Chia som odlats"
+msgstr "{currencyCode} Totalt antal Chives som odlats"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"

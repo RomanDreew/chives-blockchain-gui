@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: zh_TW\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-16 17:30\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "＊想更進一步探索 Chia 區塊鍵？看看開源開發者打造的 <0>Chia Explorer</0>"
+msgstr "＊想更進一步探索 Chives 區塊鍵？看看開源開發者打造的 <0>Chives Explorer</0>"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "收割機是在實際存放耕地的機器上運作的服務。塊農和
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "關於 Chia 區塊鏈"
+msgstr "關於 Chives 區塊鏈"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "區塊 VDF 疊代次數"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Chia 區塊鏈區塊高度 {0}"
+msgstr "Chives 區塊鏈區塊高度 {0}"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,15 +269,15 @@ msgstr "在 KeyBase 上閒聊"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Chia 區塊鏈維基"
+msgstr "Chives 區塊鏈維基"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Chia 錢包"
+msgstr "Chives 錢包"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "編輯"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "輸入你已存的 24 字助記符號以復原您的 Chia 錢包。"
+msgstr "輸入你已存的 24 字助記符號以復原您的 Chives 錢包。"
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -606,7 +606,7 @@ msgstr "錯誤"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "錯誤：不能發送 Chia 到有色地址。請輸入 Chia 地址。"
+msgstr "錯誤：不能發送 Chives 到有色地址。請輸入 Chives 地址。"
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1223,7 +1223,7 @@ msgstr "已通過篩選耕地"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "耕地是在你硬碟上劃出的空間，用於耕種來賺取 Chia 。 <0>了解更多</0>"
+msgstr "耕地是在你硬碟上劃出的空間，用於耕種來賺取 Chives 。 <0>了解更多</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1545,7 +1545,7 @@ msgstr "花費間隔長度 (區塊數量)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "花用限制（每間隔可用 Chia）：{0}"
+msgstr "花用限制（每間隔可用 Chives）：{0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1698,7 +1698,7 @@ msgstr "這個功能只能在 GUI 中提供。"
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "這是你目前可用來交易的 Chia 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Chia 。"
+msgstr "這是你目前可用來交易的 Chives 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Chives 。"
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1718,7 +1718,7 @@ msgstr "這是塊農建立區塊的時間，這是在用時間證明最終確定
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "這是由你的私鑰控制的目前峰值子區塊中區塊鏈中 Chia 的總量。他包括凍結耕種獎勵，但不包括未結的匯入和匯出交易。"
+msgstr "這是由你的私鑰控制的目前峰值子區塊中區塊鏈中 Chives 的總量。他包括凍結耕種獎勵，但不包括未結的匯入和匯出交易。"
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1746,7 +1746,7 @@ msgstr "此貿易已包含在區塊鏈中的這個區塊高度"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "此版本的 Chia 不再與區塊鏈相容，因此無法安全地進行耕種。"
+msgstr "此版本的 Chives 不再與區塊鏈相容，因此無法安全地進行耕種。"
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"
@@ -1935,7 +1935,7 @@ msgstr "錢包"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "想要獲得更多 Chia？增加更多耕地到你的農場。"
+msgstr "想要獲得更多 Chives？增加更多耕地到你的農場。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1951,7 +1951,7 @@ msgstr "權重是所有包括這個的子區塊的總增加難度"
 
 #: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "歡迎來到 Chia。請用已有的金鑰登入，或建立新的金鑰。"
+msgstr "歡迎來到 Chives。請用已有的金鑰登入，或建立新的金鑰。"
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2066,7 +2066,7 @@ msgstr "{currencyCode} 區塊獎勵"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} 已收耕 Chia"
+msgstr "{currencyCode} 已收耕 Chives"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"

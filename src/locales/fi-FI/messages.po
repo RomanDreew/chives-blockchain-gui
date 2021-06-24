@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: fi_FI\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-18 21:03\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: fi\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Haluatko tarkastella lohkoja? Katso avoimen koodin <0>Chia Explorer</0>."
+msgstr "Haluatko tarkastella lohkoja? Katso avoimen koodin <0>Chives Explorer</0>."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "Harvesteri on palvelu koneella, jolle plot-tiedostot on tallennettu. Far
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "Tietoa Chia farmista"
+msgstr "Tietoa Chives farmista"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "Lohkon VDF-iteraatiot"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Lohko korkeudessa {0} Chian lohkoketjussa"
+msgstr "Lohko korkeudessa {0} Chivesn lohkoketjussa"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,15 +269,15 @@ msgstr "Keskustele KeyBasessa"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Chia Wiki"
+msgstr "Chives Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Chia-lompakko"
+msgstr "Chives-lompakko"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "Muokkaa"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Anna tallentamasi 24 muistisanaa palauttaaksesi Chia-lompakon."
+msgstr "Anna tallentamasi 24 muistisanaa palauttaaksesi Chives-lompakon."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -606,7 +606,7 @@ msgstr "Virhe"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Virhe: Chioja ei voi lähettää värikolikko-osoitteeseen. Anna Chialompakon osoite."
+msgstr "Virhe: Chioja ei voi lähettää värikolikko-osoitteeseen. Anna Chiveslompakon osoite."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1545,7 +1545,7 @@ msgstr "Käyttöajanjakson pituus (lohkojen määrä)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Käyttöraja (Chiaa/ajanjakso):{0}"
+msgstr "Käyttöraja (Chivesa/ajanjakso):{0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1746,7 +1746,7 @@ msgstr "Kauppa on sisällytetty lohkoketjuun tässä lohkokorkeudessa"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Tämä Chian versio ei ole enää yhteensopiva lohkoketjun kanssa."
+msgstr "Tämä Chivesn versio ei ole enää yhteensopiva lohkoketjun kanssa."
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"
@@ -1951,7 +1951,7 @@ msgstr "Paino on kaikkien tähänastisten lohkojen vaikeuskerroin"
 
 #: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Tervetuloa Chiaan. Kirjaudu sisään avaimella tai luo uusi avain."
+msgstr "Tervetuloa Chivesan. Kirjaudu sisään avaimella tai luo uusi avain."
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"

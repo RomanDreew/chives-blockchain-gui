@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sk_SK\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-16 05:31\n"
 "Last-Translator: \n"
 "Language-Team: Slovak\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sk\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "* Chcete viac preskúmať Chia bloky? Vyskúšajte aplikáciu <0>Chia Explorer</0> vytvorenú open source vývojárom."
+msgstr "* Chcete viac preskúmať Chives bloky? Vyskúšajte aplikáciu <0>Chives Explorer</0> vytvorenú open source vývojárom."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "Kombajn je služba bežiaca na stroji, kde sú uložené polia. Farmár 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "O Chia blockchaine"
+msgstr "O Chives blockchaine"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "Blok VDF iterácii"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blok s výškou {0} v Chia blockchaine"
+msgstr "Blok s výškou {0} v Chives blockchaine"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,15 +269,15 @@ msgstr "Chatovať na KeyBase"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Chia peňaženka"
+msgstr "Chives peňaženka"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "Upraviť"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Zadajte 24 slov, ktoré ste si uložili pre účely obnovenia vašej peňaženky Chia."
+msgstr "Zadajte 24 slov, ktoré ste si uložili pre účely obnovenia vašej peňaženky Chives."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -1223,7 +1223,7 @@ msgstr "Polia, ktoré prešli filtrom"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Polia sú pridelené priestory na vašom pevnom disku používanom na ťažbu a zarábanie Chia. <0>Ďalšie informácie</0>"
+msgstr "Polia sú pridelené priestory na vašom pevnom disku používanom na ťažbu a zarábanie Chives. <0>Ďalšie informácie</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1545,7 +1545,7 @@ msgstr "Dĺžka disponibilného intervalu (počet blokov)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limit výdavkov (chia na interval): {0}"
+msgstr "Limit výdavkov (chives na interval): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1698,7 +1698,7 @@ msgstr "Táto možnosť je dostupná iba z Electron aplikácie."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Toto je množstvo Chia, ktoré môžete v súčasnosti použiť na uskutočnenie transakcií. Nezahŕňa nespracované odmeny za ťažbu, nespracované prichádzajúce transakcie a Chia, ktorú ste práve minuli, ale ešte nie je v blockchaine."
+msgstr "Toto je množstvo Chives, ktoré môžete v súčasnosti použiť na uskutočnenie transakcií. Nezahŕňa nespracované odmeny za ťažbu, nespracované prichádzajúce transakcie a Chives, ktorú ste práve minuli, ale ešte nie je v blockchaine."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1718,7 +1718,7 @@ msgstr "Toto je čas, kedy ťažiar vytvoril blok, a to ešte predtým, ako bol 
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Toto je celkové množstvo Chia v blockchaine v aktuálne najnovšom čiastkovom bloku, ktorý je kontrolovaný vašimi súkromnými kľúčmi. Zahŕňa zmrazené odmeny za ťaženie, ale nie nespracované prichádzajúce a odchádzajúce transakcie."
+msgstr "Toto je celkové množstvo Chives v blockchaine v aktuálne najnovšom čiastkovom bloku, ktorý je kontrolovaný vašimi súkromnými kľúčmi. Zahŕňa zmrazené odmeny za ťaženie, ale nie nespracované prichádzajúce a odchádzajúce transakcie."
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1935,7 +1935,7 @@ msgstr "Peňaženky"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Chcete zarobiť viac Chia? Pridajte na svoju farmu ďalšie polia."
+msgstr "Chcete zarobiť viac Chives? Pridajte na svoju farmu ďalšie polia."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1951,7 +1951,7 @@ msgstr "Váha je celková pridaná obtiažnosť všetkých blokov až po tento b
 
 #: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Vitajte v Chia. Prosím prihláste sa s existujúcim kľúčom, alebo si vytvorte nový."
+msgstr "Vitajte v Chives. Prosím prihláste sa s existujúcim kľúčom, alebo si vytvorte nový."
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"

@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sr_SP\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-16 17:30\n"
 "Last-Translator: \n"
 "Language-Team: Serbian (Cyrillic)\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sr\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "* Желиш да сазнаш више о Chia блоковима? Провери <0>Chia претраживач</0> који је настао од стране програмера отвореног кода."
+msgstr "* Желиш да сазнаш више о Chives блоковима? Провери <0>Chives претраживач</0> који је настао од стране програмера отвореног кода."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "Сакупљач је услуга која ради на машини �
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "О Chia блокчејну"
+msgstr "О Chives блокчејну"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "Блок VDF понављања"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Блок на висини {0} у Chia блокчејну"
+msgstr "Блок на висини {0} у Chives блокчејну"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,11 +269,11 @@ msgstr "Разговарај на KeyBase-у"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Вики за Chia блокчејн"
+msgstr "Вики за Chives блокчејн"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
@@ -1223,7 +1223,7 @@ msgstr "Филтрирани плотови"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Плотовима је додељен простор на твом хард-диску који се користи за фарму и Chia зараду. <0> Сазнај више </0>"
+msgstr "Плотовима је додељен простор на твом хард-диску који се користи за фарму и Chives зараду. <0> Сазнај више </0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1545,7 +1545,7 @@ msgstr "Дужина интервала трошења (број блокова)
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Ограничење потрошње (chia по интервалу): {0}"
+msgstr "Ограничење потрошње (chives по интервалу): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1698,7 +1698,7 @@ msgstr "Ова опција је доступна само кроз корисн
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Ово је количина Chia коју тренутно можеш користити за обављање трансакција. Не укључује награде за фармање на чекању, долазне трансакције на чекању и Chia која је управо потрошена, али још увек није на блокчејну."
+msgstr "Ово је количина Chives коју тренутно можеш користити за обављање трансакција. Не укључује награде за фармање на чекању, долазне трансакције на чекању и Chives која је управо потрошена, али још увек није на блокчејну."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1718,7 +1718,7 @@ msgstr "Ово је време када је фармер креирао бло�
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Ово је укупна количина chia на блокчејну у тренутном блоку којим управљају твоји приватни кључеви. Укључује замрзнуте награде за фарамање, али не долазне и одлазне трансакције."
+msgstr "Ово је укупна количина chives на блокчејну у тренутном блоку којим управљају твоји приватни кључеви. Укључује замрзнуте награде за фарамање, али не долазне и одлазне трансакције."
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1746,7 +1746,7 @@ msgstr "Ова трговина је укључена на блокчејну у
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Ова верзија Chia није компатибилна са блокчејном и не може безбедно користити фарму."
+msgstr "Ова верзија Chives није компатибилна са блокчејном и не може безбедно користити фарму."
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"
@@ -1951,7 +1951,7 @@ msgstr "Тежина је укупна додата сложеност свих 
 
 #: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Добродошли у Chia. Пријави се помоћу постојећег кључа или креирај нови кључ."
+msgstr "Добродошли у Chives. Пријави се помоћу постојећег кључа или креирај нови кључ."
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2066,7 +2066,7 @@ msgstr "{currencyCode} награде од блокова"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} укупно Chia са фарме"
+msgstr "{currencyCode} укупно Chives са фарме"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"

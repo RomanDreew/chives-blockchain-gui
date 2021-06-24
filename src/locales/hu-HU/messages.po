@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: hu_HU\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-17 17:54\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Felszeretnéd fedezni a Chia rendszerét bővebben? Csekkold a <0> Chia Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
+msgstr "Felszeretnéd fedezni a Chives rendszerét bővebben? Csekkold a <0> Chives Explorert</0> amit egy nyílt forráskóddal foglalkozó fejlesztő készített."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "A betakarító egy szolgáltatás ahol a parcellák valójában tárolá
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "A Chia Blockchain-ről"
+msgstr "A Chives Blockchain-ről"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "VDF-iterációk blokkja"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "{0} Magasságú blokk a Chia blokkláncban"
+msgstr "{0} Magasságú blokk a Chives blokkláncban"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,15 +269,15 @@ msgstr "Csevegés a KeyBase-n"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Chia Blokklánc Wiki"
+msgstr "Chives Blokklánc Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Chia Wallet"
+msgstr "Chives Wallet"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "Módosítás"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "A Chia pénztárca visszaállításához írja be az elmentett 24 szóból álló mnemonikát."
+msgstr "A Chives pénztárca visszaállításához írja be az elmentett 24 szóból álló mnemonikát."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -606,7 +606,7 @@ msgstr "Hiba"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Hiba: A chia nem küldhető színes címre. Kérjük, adjon meg másik chia címet."
+msgstr "Hiba: A chives nem küldhető színes címre. Kérjük, adjon meg másik chives címet."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1223,7 +1223,7 @@ msgstr "Szűrőn átjutott parcellák"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "A cserepek a termesztéshez fenntartott helyek a merevlemezen, amikből Chia nyerhető. <0>Részletek</0>"
+msgstr "A cserepek a termesztéshez fenntartott helyek a merevlemezen, amikből Chives nyerhető. <0>Részletek</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1545,7 +1545,7 @@ msgstr "Kiadási mennyiség hossza (blokkok száma)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Költési limit (chia / intervallum): {0}"
+msgstr "Költési limit (chives / intervallum): {0}"
 
 #: src/components/fullNode/FullNode.jsx:94
 msgid "State"
@@ -1694,7 +1694,7 @@ msgstr "Ez a funkció csak a grafikus felhasználói felületrôl érhetô el."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Ez az összeg Chia, amelyet jelenleg felhasználhat tranzakciók lebonyolítására. Nem tartalmazza a függőben lévő gazdálkodási jutalmakat, a függőben lévő bejövő tranzakciókat és Chiát, amelyet most költött, de még nem tartozik a blokkláncba."
+msgstr "Ez az összeg Chives, amelyet jelenleg felhasználhat tranzakciók lebonyolítására. Nem tartalmazza a függőben lévő gazdálkodási jutalmakat, a függőben lévő bejövő tranzakciókat és Chiát, amelyet most költött, de még nem tartozik a blokkláncba."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1715,7 +1715,7 @@ msgstr "Ekkor hozta létre a blokkot a gazdálkodó, ami még az idő igazolás�
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Ez az összes Chia mennyiség a blokkláncban az aktuális csúcs alblokkban, amelyet a privát kulcsaid vezérelnek. Ez magában foglalja a befagyasztott gazdálkodási jutalmakat, de nem a függőben lévő bejövő és kimenő tranzakciókat."
+msgstr "Ez az összes Chives mennyiség a blokkláncban az aktuális csúcs alblokkban, amelyet a privát kulcsaid vezérelnek. Ez magában foglalja a befagyasztott gazdálkodási jutalmakat, de nem a függőben lévő bejövő és kimenő tranzakciókat."
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1743,7 +1743,7 @@ msgstr "Ez a kereskedés a blokklánc ezen magasságán történt"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "A Chia ezen verziója többé már nem kompatibilis a blokklánccal és nem biztonságos."
+msgstr "A Chives ezen verziója többé már nem kompatibilis a blokklánccal és nem biztonságos."
 
 #: src/components/fullNode/FullNode.jsx:86
 msgid "Time Created"
@@ -1932,7 +1932,7 @@ msgstr "Tárcák"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Szeretne többet keresni Chia-val? Adjon hozzá több telket a gazdaságához (farmoláshoz)."
+msgstr "Szeretne többet keresni Chives-val? Adjon hozzá több telket a gazdaságához (farmoláshoz)."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1948,7 +1948,7 @@ msgstr "Az összes alblokk teljes hozzáadott nehézségének a súlya, egészen
 
 #: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Üdvözöljük a Chia-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
+msgstr "Üdvözöljük a Chives-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2063,7 +2063,7 @@ msgstr "Blokk jutalmak {currencyCode}"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "Teljes farmolt Chia mennyiség {currencyCode}"
+msgstr "Teljes farmolt Chives mennyiség {currencyCode}"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"

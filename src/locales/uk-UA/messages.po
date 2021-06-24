@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: uk_UA\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-16 05:31\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: uk\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Бажаєте подивитися більше інформації про блоки Chia? Загляньте в оглядач блоків <0>Chia Explorer</0>, створений на основі відкритого вихідного коду."
+msgstr "Бажаєте подивитися більше інформації про блоки Chives? Загляньте в оглядач блоків <0>Chives Explorer</0>, створений на основі відкритого вихідного коду."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "Комбайн - це служба, що працює на пристр�
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "Про програму Chia Blockchain"
+msgstr "Про програму Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "VDF ітерацій блоку"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Блок на висоті {0} в блокчейні Chia"
+msgstr "Блок на висоті {0} в блокчейні Chives"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,15 +269,15 @@ msgstr "Чат у KeyBase"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Гаманець Chia"
+msgstr "Гаманець Chives"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "Редагувати"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Введіть мнемоніку з 24 слів, яку ви зберегли, для відновлення гаманця Chia."
+msgstr "Введіть мнемоніку з 24 слів, яку ви зберегли, для відновлення гаманця Chives."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -606,7 +606,7 @@ msgstr "Помилка"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Помилка: Не вдалося надіслати chia на кольорову адресу. Будь ласка, введіть chia-адресу."
+msgstr "Помилка: Не вдалося надіслати chives на кольорову адресу. Будь ласка, введіть chives-адресу."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1545,7 +1545,7 @@ msgstr "Інтервал витрат (кількість блоків)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Ліміт витрат (chia на інтервал): {0}"
+msgstr "Ліміт витрат (chives на інтервал): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1698,7 +1698,7 @@ msgstr "Ця функція доступна лише з графічного і
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Це кількість Chia, яку можна використовувати для здійснення транзакцій. Не включає в себе очікувані винагороди за фермерство, очікувані вхідні транзакції і Chia, що ви щойно витратили, але які ще не потрапили в blockchain."
+msgstr "Це кількість Chives, яку можна використовувати для здійснення транзакцій. Не включає в себе очікувані винагороди за фермерство, очікувані вхідні транзакції і Chives, що ви щойно витратили, але які ще не потрапили в blockchain."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1718,7 +1718,7 @@ msgstr "Це час, коли блок був створений фермеро�
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
 msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Це загальна кількість chia в блокчейку на поточному піковому блоці, який контролюється вашими закритими ключами. Він включає в себе заморожені фермерські винагороди, але не очікувані вхідні та вихідні транзакції."
+msgstr "Це загальна кількість chives в блокчейку на поточному піковому блоці, який контролюється вашими закритими ключами. Він включає в себе заморожені фермерські винагороди, але не очікувані вхідні та вихідні транзакції."
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -1746,7 +1746,7 @@ msgstr "Ця угода включена в blockchain на вказаній в�
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Ця версія Chia більше не сумісна з blockchain і не може безпечно фармити."
+msgstr "Ця версія Chives більше не сумісна з blockchain і не може безпечно фармити."
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"
@@ -1935,7 +1935,7 @@ msgstr "Гаманці"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Хочете заробити більше Chia? Додайте більше ділянок у свою ферму."
+msgstr "Хочете заробити більше Chives? Додайте більше ділянок у свою ферму."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1951,7 +1951,7 @@ msgstr "Вага - це загальна додана складність ус�
 
 #: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Ласкаво просимо в Chia. Будь ласка, увійдіть за допомогою існуючого ключа або створіть новий ключ."
+msgstr "Ласкаво просимо в Chives. Будь ласка, увійдіть за допомогою існуючого ключа або створіть новий ключ."
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2066,7 +2066,7 @@ msgstr "{currencyCode} Винагороди за блоки"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Всього Chia створено"
+msgstr "{currencyCode} Всього Chives створено"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"

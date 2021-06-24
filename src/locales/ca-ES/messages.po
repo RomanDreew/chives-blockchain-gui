@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ca_ES\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-15 23:32\n"
 "Last-Translator: \n"
 "Language-Team: Catalan\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: ca\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Vols explorar encara més els blocs de Chia? Dóna un cop d'ull a <0>Chia Explorer</0> creat per un desenvolupador de codi lliure."
+msgstr "*Vols explorar encara més els blocs de Chives? Dóna un cop d'ull a <0>Chives Explorer</0> creat per un desenvolupador de codi lliure."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "Un recolector és un servei que s'executa en una màquina on actualment 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "Sobre Chia Blockchain"
+msgstr "Sobre Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "Iteraciones de bloc VDF"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Bloc a la alçada {0} en la cadena de blocs de Chia"
+msgstr "Bloc a la alçada {0} en la cadena de blocs de Chives"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,15 +269,15 @@ msgstr "Xateja a KeyBase"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Wiki de la Cadena de Blocs de Chia"
+msgstr "Wiki de la Cadena de Blocs de Chives"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Moneder Chia"
+msgstr "Moneder Chives"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "Edita"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Introduïu les 24 paraules mnemotècniques que heu guardat per restaurar la cartera de Chia."
+msgstr "Introduïu les 24 paraules mnemotècniques que heu guardat per restaurar la cartera de Chives."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -606,7 +606,7 @@ msgstr "Error"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "No és possible enviar Chia a l'adreça ressaltada. Si us plau, introdueix una adreça Chia."
+msgstr "No és possible enviar Chives a l'adreça ressaltada. Si us plau, introdueix una adreça Chives."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1223,7 +1223,7 @@ msgstr "Traçats que han passat el filtre"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Traçats ubicats en l'espai del teu disc dur utilitzat per collir i guanyar Chia</0> Aprèn més <0>"
+msgstr "Traçats ubicats en l'espai del teu disc dur utilitzat per collir i guanyar Chives</0> Aprèn més <0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"

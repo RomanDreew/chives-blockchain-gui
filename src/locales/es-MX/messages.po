@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: es_MX\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: chives-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2021-05-16 05:31\n"
 "Last-Translator: \n"
 "Language-Team: Spanish, Mexico\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: chives-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: es-MX\n"
 "X-Crowdin-File: /main/src/locales/en-US/messages.po\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
 msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*¿Quieres explorar más hacerca de los bloques de Chia? Echa un vistazo a Chia Explorer, creado por un desarrollador de código abierto."
+msgstr "*¿Quieres explorar más hacerca de los bloques de Chives? Echa un vistazo a Chives Explorer, creado por un desarrollador de código abierto."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
 #~ msgid "0 automatically chooses bucket count"
@@ -37,7 +37,7 @@ msgstr "Un cosechador es un servicio que se ejecuta en una máquina en donde act
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
 msgid "About Chia Blockchain"
-msgstr "Acerca de Chia Blockchain"
+msgstr "Acerca de Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
 msgid "Accept"
@@ -188,7 +188,7 @@ msgstr "Iteraciones de Bloque VDF"
 
 #: src/components/block/Block.jsx:311
 msgid "Block at height {0} in the Chia blockchain"
-msgstr "Bloque a la altura {0} en la cadena de bloques de Chia"
+msgstr "Bloque a la altura {0} en la cadena de bloques de Chives"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -269,15 +269,15 @@ msgstr "Chatear en Keybase"
 
 #: src/electron/main.tsx:362
 msgid "Chia"
-msgstr "Chia"
+msgstr "Chives"
 
 #: src/electron/main.tsx:312
 msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
 msgid "Chia Wallet"
-msgstr "Cartera Chia"
+msgstr "Cartera Chives"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
 msgid "Choose Number of Plots"
@@ -592,7 +592,7 @@ msgstr "Editar"
 
 #: src/components/wallet/WalletImport.tsx:67
 msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Introduzca las 24 palabras mnemotécnicas que has guardado en orden para restaurar su cartera Chia."
+msgstr "Introduzca las 24 palabras mnemotécnicas que has guardado en orden para restaurar su cartera Chives."
 
 #: src/components/farm/FarmerStatus.tsx:30
 #: src/components/farm/FarmerStatus.tsx:31
@@ -606,7 +606,7 @@ msgstr "Error"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
 msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Error: No se puede enviar chia a la dirección de color. Por favor introduzca una dirección chia."
+msgstr "Error: No se puede enviar chives a la dirección de color. Por favor introduzca una dirección chives."
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:34
@@ -1223,7 +1223,7 @@ msgstr "Parcelas que Pasaron el Filtro"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
 msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Las parcelas son un espacio reservado de tu disco duro que se utiliza para cultivar y ganar Chia. <0> Más información </0>"
+msgstr "Las parcelas son un espacio reservado de tu disco duro que se utiliza para cultivar y ganar Chives. <0> Más información </0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
 msgid "Plotting"
@@ -1545,7 +1545,7 @@ msgstr "Duración del Intervalo de Gasto (cantidad de bloques)"
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
 msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limite de gasto (chia por intervalo): {0}"
+msgstr "Limite de gasto (chives por intervalo): {0}"
 
 #: src/components/fullNode/FullNode.jsx:95
 msgid "State"
@@ -1698,7 +1698,7 @@ msgstr "Esta característica esta disponible solo desde la interfaz gráfica."
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
 msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Esta es la cantidad de chía que puede utilizar actualmente para realizar transacciones. No incluye recompensas de cultivo pendientes, transacciones entrantes pendientes y Chia que acaba de gastar pero que aún no está en la cadena de bloques."
+msgstr "Esta es la cantidad de chía que puede utilizar actualmente para realizar transacciones. No incluye recompensas de cultivo pendientes, transacciones entrantes pendientes y Chives que acaba de gastar pero que aún no está en la cadena de bloques."
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -1746,7 +1746,7 @@ msgstr "Esta operación fue incluida en la cadena de bloques a esta altura de bl
 
 #: src/components/app/AppTimeBombAlert.tsx:11
 msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Esta versión de Chia ya no es compatible con la cadena de bloques y no puede cultivar de manera segura."
+msgstr "Esta versión de Chives ya no es compatible con la cadena de bloques y no puede cultivar de manera segura."
 
 #: src/components/fullNode/FullNode.jsx:87
 msgid "Time Created"
@@ -1935,7 +1935,7 @@ msgstr "Carteras"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
 msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "¿Quieres ganar más Chia? Añade más parcelas a tu granja."
+msgstr "¿Quieres ganar más Chives? Añade más parcelas a tu granja."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
 msgid "Want to have a delay before the next plot starts?"
@@ -1951,7 +1951,7 @@ msgstr "El peso es la dificultad agregada total de todos los sub-bloques hasta e
 
 #: src/components/selectKey/SelectKey.tsx:77
 msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Bienvenidos a Chia. Por favor inicie sesión con una llave existente o cree una nueva."
+msgstr "Bienvenidos a Chives. Por favor inicie sesión con una llave existente o cree una nueva."
 
 #: src/components/wallet/WalletAdd.tsx:35
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2066,7 +2066,7 @@ msgstr "{currencyCode} Recompensas de Bloque"
 
 #: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
 msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Total de Chia Cultivada"
+msgstr "{currencyCode} Total de Chives Cultivada"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17
 msgid "{currencyCode} User Transaction Fees"
