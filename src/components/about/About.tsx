@@ -70,7 +70,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://chia.net';
+const url = 'https://chivescoin.org/';
 
 type Props = {
   version: string;
@@ -113,7 +113,7 @@ export default function About(props: Props) {
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
         <div className="copyright">
-          Copyright (c) 2021 Chia Network
+          Copyright (c) 2021 Chia Network & Chivescoin
         </div>
         <Spacer />
         <VersionsTable>
@@ -143,7 +143,7 @@ export default function About(props: Props) {
           )}
         </VersionsTable>
 
-        <BugReport href="https://github.com/Chia-Network/chia-blockchain/issues" target="_blank">
+        <BugReport href="https://github.com/HiveProject2021/chia-blockchain/issues" target="_blank">
           Report an issue
         </BugReport>
         {'{{CSS}}'}
