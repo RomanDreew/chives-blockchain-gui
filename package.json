@@ -2,7 +2,7 @@
   "name": "chia-blockchain",
   "author": "Chives Network <chivescoin@gmail.com> (https://chivescoin.org/)",
   "description": "GUI for Chives Blockchain",
-  "productName": "chives-blockchain",
+  "productName": "Chives Blockchain",
   "executableName": "chia-blockchain",
   "private": true,
   "homepage": "./",
