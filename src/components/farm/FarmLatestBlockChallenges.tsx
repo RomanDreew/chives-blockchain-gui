@@ -71,7 +71,7 @@ export default function FarmLatestBlockChallenges() {
           *Want to explore Chia’s blocks further? Check out{' '}
           <Link
             color="primary"
-            href="https://www.chiaexplorer.com/"
+            href="https://explorer.chivescoin.org/"
             target="_blank"
           >
             Chia Explorer

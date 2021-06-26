@@ -251,7 +251,7 @@ export default function Block() {
     {
       name: <Trans>Farmer Puzzle Hash</Trans>,
       value: (
-        <Link target="_blank" href={`https://www.chiaexplorer.com/blockchain/puzzlehash/${blockRecord.farmer_puzzle_hash}`}>
+        <Link target="_blank" href={`https://explorer.chivescoin.org/blockchain/blockview.php?puzzlehash?${blockRecord.farmer_puzzle_hash}`}>
           {currencyCode ? toBech32m(blockRecord.farmer_puzzle_hash, currencyCode.toLowerCase()) : ''}
         </Link>
       ),
@@ -259,7 +259,7 @@ export default function Block() {
     {
       name: <Trans>Pool Puzzle Hash</Trans>,
       value: (
-        <Link target="_blank" href={`https://www.chiaexplorer.com/blockchain/puzzlehash/${blockRecord.pool_puzzle_hash}`}>
+        <Link target="_blank" href={`https://explorer.chivescoin.org/blockchain/blockview.php?puzzlehash?${blockRecord.pool_puzzle_hash}`}>
           {currencyCode ? toBech32m(blockRecord.pool_puzzle_hash, currencyCode.toLowerCase()) : ''}
         </Link>
       ),
