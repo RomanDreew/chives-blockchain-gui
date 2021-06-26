@@ -15,8 +15,8 @@ sudo ufw allow from <IP of UI machine> to any port 55400 proto tcp
 To secure their connection, the UI will need the daemon's certificates. Copy these files to the UI machine:
 
 ````bash
-~/.chvies/<currentversion>/config/ssl/daemon/private_daemon.crt
-~/.chvies/<currentversion>/config/ssl/daemon/private_daemon.key
+~/.chives/<currentversion>/config/ssl/daemon/private_daemon.crt
+~/.chives/<currentversion>/config/ssl/daemon/private_daemon.key
 ````
 
 ## On the UI host
@@ -24,8 +24,8 @@ To secure their connection, the UI will need the daemon's certificates. Copy the
 Place the daemon's cert files, copied earlier, in the following location:
 
 ````bash
-~/.chvies/<currentversion>/config/ssl/ui/
-~/.chvies/<currentversion>/config/ssl/ui/
+~/.chives/<currentversion>/config/ssl/ui/
+~/.chives/<currentversion>/config/ssl/ui/
 ````
 
 Find the `ui` section in `config.yaml` and specify the following settings:
