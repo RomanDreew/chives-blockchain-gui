@@ -7,6 +7,9 @@ export function calculatePoolReward(height: number): Big {
   if (height === 0) {
     return MOJO_PER_CHIA.times(0).times(7 / 8);
   }
+  if (height % 3 == 1) {
+    return MOJO_PER_CHIA.times(3.3);
+  }
   if (height < 3 * BLOCKS_PER_YEAR) {
     return MOJO_PER_CHIA.times(2*100).times(7 / 8);
   }
@@ -26,6 +29,9 @@ export function calculatePoolReward(height: number): Big {
 export function calculateBaseFarmerReward(height: number): Big {
   if (height === 0) {
     return MOJO_PER_CHIA.times(0).times(1 / 8);
+  }
+  if (height % 3 == 1) {
+    return MOJO_PER_CHIA.times(6.6);
   }
   if (height < 3 * BLOCKS_PER_YEAR) {
     return MOJO_PER_CHIA.times(2*100).times(1 / 8);
