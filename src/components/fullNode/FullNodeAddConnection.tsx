@@ -23,8 +23,8 @@ export default function FullNodeAddConnection(props: Props) {
   const methods = useForm<FormData>({
     shouldUnregister: false,
     defaultValues: {
-      host: '',
-      port: '',
+      host: 'node-us.chivescoin.org',
+      port: '9444',
     },
   });
 
