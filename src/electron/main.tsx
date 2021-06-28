@@ -359,7 +359,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Chia Blockchain Wiki' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/wiki',
+                'https://github.com/HiveProject2021/chives-blockchain/wiki',
               );
             },
           },
@@ -367,7 +367,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/wiki/FAQ',
+                'https://github.com/HiveProject2021/chives-blockchain/wiki/FAQ',
               );
             },
           },
@@ -375,7 +375,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Release Notes' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/releases',
+                'https://github.com/HiveProject2021/chives-blockchain/releases',
               );
             },
           },
@@ -383,7 +383,7 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
             click: () => {
               openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/blob/master/CONTRIBUTING.md',
+                'https://github.com/HiveProject2021/chives-blockchain/',
               );
             },
           },
@@ -391,23 +391,33 @@ if (!handleSquirrelEvent()) {
             type: 'separator',
           },
           {
-            label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
+            label: i18n._(/* i18n */ { id: 'Chives Website' }),
             click: () => {
-              openExternal(
-                'https://github.com/Chia-Network/chia-blockchain/issues',
-              );
+              openExternal('https://chivescoin.org');
             },
           },
           {
-            label: i18n._(/* i18n */ { id: 'Chat on KeyBase' }),
+            label: i18n._(/* i18n */ { id: 'Blockchain Explorer' }),
             click: () => {
-              openExternal('https://keybase.io/team/chia_network.public');
+              openExternal('https://explorer.chivescoin.org');
+            },
+          },
+          {
+            label: i18n._(/* i18n */ { id: 'Community Autonomy' }),
+            click: () => {
+              openExternal('https://community.chivescoin.org');
+            },
+          },
+          {
+            label: i18n._(/* i18n */ { id: 'Get Chives For Free' }),
+            click: () => {
+              openExternal('https://game.chivescoin.org');
             },
           },
           {
             label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
             click: () => {
-              openExternal('https://twitter.com/chia_project');
+              openExternal('https://twitter.com/chives_project');
             },
           },
         ],

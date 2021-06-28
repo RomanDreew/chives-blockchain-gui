@@ -4,7 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Chia-Network/chia-blockchain?logo=GitHub)
 
 Please check out the [wiki](https://github.com/Chia-Network/chia-blockchain/wiki)
-and [FAQ](https://github.com/Chia-Network/chia-blockchain/wiki/FAQ) for
+and [FAQ](https://github.com/HiveProject2021/chives-blockchain/wiki/FAQ) for
 information on this project.
 
 ## Installing
