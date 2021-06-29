@@ -731,6 +731,22 @@ msgstr "已完成"
 msgid "Follow on Twitter"
 msgstr "关注我们的Twitter"
 
+#: src/electron/main.tsx:394
+msgid "Chives Website"
+msgstr "韭菜官方网站"
+
+#: src/electron/main.tsx:400
+msgid "Blockchain Explorer"
+msgstr "区块链浏览器"
+
+#: src/electron/main.tsx:406
+msgid "Community Autonomy"
+msgstr "社区生态建设"
+
+#: src/electron/main.tsx:412
+msgid "Get Chives For Free"
+msgstr "免费获得韭菜"
+
 #: src/electron/main.tsx:318
 msgid "Frequently Asked Questions"
 msgstr "常见问题解答"
