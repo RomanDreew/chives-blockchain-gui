@@ -1,9 +1,9 @@
 {
-  "name": "chia-blockchain",
+  "name": "chives-blockchain",
   "author": "Chives Network <chivescoin@gmail.com> (https://chivescoin.org/)",
   "description": "GUI for Chives Blockchain",
   "productName": "Chives Blockchain",
-  "executableName": "chia-blockchain",
+  "executableName": "chives-blockchain",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",

@@ -19,7 +19,7 @@ msgstr ""
 "X-Crowdin-File-ID: 72\n"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:39
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+msgid "*Want to explore Chives’s blocks further? Check out <0>Chives Explorer</0> built by an open source developer."
 msgstr "*อยากสำรวจบล็อกของ Chives มากกว่านี้หรือ? ลองเข้าไปดู <0>Chives Explorer</0> ที่ถูกสร้างโดยนักพัฒนาโอเพนซอร์ซสิ"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:94
@@ -36,7 +36,7 @@ msgstr "Harvester Service กำลังทำงานอยู่บนเค
 
 #: src/electron/main.tsx:365
 #: src/electron/main.tsx:443
-msgid "About Chia Blockchain"
+msgid "About Chives Blockchain"
 msgstr "เกี่ยวกับ Chives Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:85
@@ -187,7 +187,7 @@ msgid "Block VDF Iterations"
 msgstr "การทำซ้ำของบล็อค VDF"
 
 #: src/components/block/Block.jsx:311
-msgid "Block at height {0} in the Chia blockchain"
+msgid "Block at height {0} in the Chives blockchain"
 msgstr "ปริมาณของบล็อคใน Chives blockchain คือ {0}"
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -268,15 +268,15 @@ msgid "Chat on KeyBase"
 msgstr "แชทบน KeyBase"
 
 #: src/electron/main.tsx:362
-msgid "Chia"
+msgid "Chives"
 msgstr "Chives"
 
 #: src/electron/main.tsx:312
-msgid "Chia Blockchain Wiki"
+msgid "Chives Blockchain Wiki"
 msgstr "Chives Blockchain Wiki"
 
 #: src/components/wallet/Wallets.tsx:32
-msgid "Chia Wallet"
+msgid "Chives Wallet"
 msgstr "Chives วอลเล็ต"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:13
@@ -591,7 +591,7 @@ msgid "Edit"
 msgstr "แก้ไข"
 
 #: src/components/wallet/WalletImport.tsx:67
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chives wallet."
 msgstr "ใส่รหัสนีโมนิค 24 คำที่คุณเคยบันทึกไว้ เพื่อกู้คืน Chives วอลเล็ตของคุณ"
 
 #: src/components/farm/FarmerStatus.tsx:30
@@ -605,7 +605,7 @@ msgid "Error"
 msgstr "ข้อผิดพลาด"
 
 #: src/components/wallet/standard/WalletStandard.tsx:292
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+msgid "Error: Cannot send chives to coloured address. Please enter a chives address."
 msgstr "ข้อผิดพลาด: ไม่สามารถส่งchivesไปที่coloures addressได้ กรุณากรอก Chives address"
 
 #: src/components/farm/card/FarmCardExpectedTimeToWin.tsx:32
@@ -1222,7 +1222,7 @@ msgid "Plots Passed Filter"
 msgstr "ตัวกรอง Plot ที่ผ่านแล้ว"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:23
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Chives. <0>Learn more</0>"
 msgstr "พล็อต คือพื้นที่ที่จัดสรรบนฮาร์ดดิสก์ของคุณ เพื่อใช้ในการฟาร์มและรับ Chives <0>เรียนรู้เพิ่มเติม</0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:21
@@ -1544,7 +1544,7 @@ msgstr "ช่วงความกว้างของการจ่าย (�
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:415
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:466
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (chives per interval): {0}"
 msgstr "จำกัดการจ่าย (Chives ต่อช่วงเวลา) : {0}"
 
 #: src/components/fullNode/FullNode.jsx:94
@@ -1592,8 +1592,8 @@ msgstr "สถานะ:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Chives blockchain"
+#~ msgstr "Sub Block at height {0} in the Chives blockchain"
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:357
 msgid "Submit"
@@ -1693,7 +1693,7 @@ msgid "This feature is available only from the GUI."
 msgstr "ฟีเจอร์นี้สามารถใช้ได้เฉพาะใน GUI"
 
 #: src/components/wallet/standard/WalletStandard.tsx:201
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Chives that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chives that you have just spent but is not yet in the blockchain."
 msgstr "นี่คือจำนวน Chives ทั้งหมดที่คุณสามารถทำรายการได้ในขณะนี้ ซึ่งยังไม่รวม Farming Reward ยอดที่รอทำรายการเข้ามา และยอดที่คุณเพิ่งใช้ไปที่ยังไม่ได้ไปอยู่ใน Blockchain"
 
 #: src/components/wallet/standard/WalletStandard.tsx:228
@@ -1713,7 +1713,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "นี่เป็นเวลาที่ Farmer สร้าง Block ซึ่งก่อนที่จะสรุปผลด้วย Proof of Time"
 
 #: src/components/wallet/standard/WalletStandard.tsx:195
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of chives in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "นี่คือยอด Chives ทั้งหมดที่อยู่ใน Blockchain ในช่วง peak ของ Sub Block ล่าสุด ที่ถูกควบคุมโดยคีย์ส่วนตัวของคุณ ซึ่งรวมถึง Farming Reward ที่ถูกพักไว้ แต่ไม่ถูกเลื่อนการทำธุรกรรม"
 
 #: src/components/wallet/standard/WalletStandard.tsx:218
@@ -1741,7 +1741,7 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "การแลกเปลี่ยนนี้ได้ถูกรวมอยู่ในบล็อกเชนที่ความสูงบล็อกนี้"
 
 #: src/components/app/AppTimeBombAlert.tsx:11
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+msgid "This version of Chives is no longer compatible with the blockchain and can not safely farm."
 msgstr "Chives รุ่นนี้ล้าสมัย และไม่สามารถเข้ากันได้กับ Blockchain รวมถึงไม่สามารถ Farm ได้อีกต่อไป"
 
 #: src/components/fullNode/FullNode.jsx:86
@@ -1766,8 +1766,8 @@ msgstr "ถึง"
 msgid "Total Balance"
 msgstr "ยอดคงเหลือทั้งหมด"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:15
+#~ msgid "Total Chives Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/FullNode.jsx:191
@@ -1897,7 +1897,7 @@ msgstr "รอการซิงโครไนซ์"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:30
-#~ msgid "WalletItem.chiaWallet"
+#~ msgid "WalletItem.chivesWallet"
 #~ msgstr ""
 
 #: src/components/wallet/Wallets.tsx:48
@@ -1930,7 +1930,7 @@ msgstr "วอลเล็ต"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:84
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Chives? Add more plots to your farm."
 msgstr "อยากได้รับ Chives เพิ่มใช่ไหม? ลองเพิ่มพล็อตที่ฟาร์มของคุณอีก"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:53
@@ -1946,7 +1946,7 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "น้ำหนักคือ Difficulty ที่เพิ่มทั้งหมดของ Sub Block ทั้งหมดขึ้นอยู่กับและรวมถึงนี้ด้วย"
 
 #: src/components/selectKey/SelectKey.tsx:77
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Chives. Please log in with an existing key, or create a new key."
 msgstr "ยินดีต้อนรับสู่ Chives กรุณาเข้าสู่ระบบด้วยคีย์ที่มีอยู่แล้ว หรือสร้างคีย์ใหม่"
 
 #: src/components/wallet/WalletAdd.tsx:35
@@ -1996,8 +1996,8 @@ msgstr "คุณมีพื้นที่ {0}% จากทั้งหมด
 #~ msgstr "You have {0}% of the space on the network, so farming a block will take {expectedTimeToWin} in expectation. Actual results may take 3-4 times longer this estimate. <0>Learn about Expected Value</0>"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Chives application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Chives application as this version will stop working soon!"
 
 #: src/components/farm/overview/FarmOverview.tsx:24
 msgid "Your Farm Overview"
@@ -2060,8 +2060,8 @@ msgstr "กำลังซิงค์"
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} บล็อกรางวัล"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:17
-msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalChivesFarmed.tsx:17
+msgid "{currencyCode} Total Chives Farmed"
 msgstr "{currencyCode} Chives ที่ฟาร์มแล้ว"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:17

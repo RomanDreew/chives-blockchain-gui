@@ -4,7 +4,7 @@ import { Alert } from '@material-ui/lab';
 import { Trans } from '@lingui/macro';
 import { useParams, useHistory } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { Card, FormatLargeNumber, Link, Loading, TooltipIcon, Flex } from '@chia/core';
+import { Card, FormatLargeNumber, Link, Loading, TooltipIcon, Flex } from '@chives/core';
 import {
   unix_to_short_date,
   hex_to_array,
@@ -15,7 +15,7 @@ import {
   getBlockRecord,
   getBlock,
 } from '../../modules/fullnodeMessages';
-import { mojo_to_chia } from '../../util/chia';
+import { mojo_to_chives } from '../../util/chives';
 import { calculatePoolReward, calculateBaseFarmerReward } from '../../util/blockRewards';
 import LayoutMain from '../layout/LayoutMain';
 import toBech32m from '../../util/toBech32m';
@@ -168,11 +168,11 @@ export default function Block() {
     ? blockRecord.weight - prevBlockRecord.weight
     : blockRecord?.weight ?? 0;
 
-  const poolReward = mojo_to_chia(calculatePoolReward(blockRecord.height));
-  const baseFarmerReward = mojo_to_chia(calculateBaseFarmerReward(blockRecord.height));
+  const poolReward = mojo_to_chives(calculatePoolReward(blockRecord.height));
+  const baseFarmerReward = mojo_to_chives(calculateBaseFarmerReward(blockRecord.height));
 
-  const chiaFees = blockRecord.fees
-    ? mojo_to_chia(BigInt(blockRecord.fees))
+  const chivesFees = blockRecord.fees
+    ? mojo_to_chives(BigInt(blockRecord.fees))
     : '';
 
   const rows = [
@@ -292,7 +292,7 @@ export default function Block() {
     },
     {
       name: <Trans>Fees Amount</Trans>,
-      value: chiaFees ? `${chiaFees} ${currencyCode}` : '',
+      value: chivesFees ? `${chivesFees} ${currencyCode}` : '',
       tooltip: (
         <Trans>
           The total transactions fees in this block. Rewarded to the farmer.
@@ -309,7 +309,7 @@ export default function Block() {
         title={(
           <BlockTitle>
             <Trans>
-              Block at height {blockRecord.height} in the Chia
+              Block at height {blockRecord.height} in the Chives
               blockchain
             </Trans>
           </BlockTitle>

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import icon from '../../assets/img/chia_circle.svg';
+import icon from '../../assets/img/chives_circle.svg';
 
 const GlobalStyle = createGlobalStyle`
   body,
@@ -113,7 +113,7 @@ export default function About(props: Props) {
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
         <div className="copyright">
-          Copyright (c) 2021 Chia Network & Chives Network
+          Copyright (c) 2021 Chives Network & Chives Network
         </div>
         <Spacer />
         <VersionsTable>
