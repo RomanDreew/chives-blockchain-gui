@@ -2,5 +2,5 @@ import Unit from './Unit';
 import { IS_MAINNET } from './constants';
 
 export default {
-  [Unit.CHIA]: IS_MAINNET ? 'XCC' : 'TXCC',
+  [Unit.CHIA]: IS_MAINNET ? 'XCH' : 'TXCH',
 };
