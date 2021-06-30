@@ -7,7 +7,7 @@ module.exports = {
     Wrapper: path.join(__dirname, "src/StyleguidistMuiWrapper"),
   },
   ribbon: {
-    url: "https://github.com/Chives-Network/chives-blockchain",
+    url: "https://github.com/HiveProject2021/chives-blockchain",
   },
   version,
 };

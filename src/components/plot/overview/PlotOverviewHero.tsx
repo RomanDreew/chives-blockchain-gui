@@ -29,7 +29,7 @@ export default function PlotOverviewHero() {
           <Typography variant="body1">
             <Trans>
               {'Plots are allocated space on your hard drive used to farm and earn Chives. '}
-              <Link target="_blank" href="https://github.com/Chives-Network/chives-blockchain/wiki/Network-Architecture">Learn more</Link>
+              <Link target="_blank" href="https://github.com/HiveProject2021/chives-blockchain/wiki/Network-Architecture">Learn more</Link>
             </Trans>
           </Typography>
           <Button

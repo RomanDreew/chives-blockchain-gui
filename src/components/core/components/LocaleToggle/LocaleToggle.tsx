@@ -40,7 +40,7 @@ export default function LocaleToggle(props: Props) {
   function handleHelpTranslate() {
     handleClose();
 
-    openExternal('https://github.com/Chives-Network/chives-blockchain-gui/tree/main/src/locales/README.md');
+    openExternal('https://github.com/HiveProject2021/chives-blockchain-gui/tree/main/src/locales/README.md');
   }
 
   const localeData = useMemo(
