@@ -727,9 +727,13 @@ msgstr "Final folder location"
 msgid "Finished"
 msgstr "Finished"
 
-#: src/electron/main.tsx:351
+#: src/electron/main.tsx:403
 msgid "Follow on Twitter"
 msgstr "Follow on Twitter"
+
+#: src/electron/main.tsx:408
+msgid "Discord"
+msgstr "Discord"
 
 #: src/electron/main.tsx:318
 msgid "Frequently Asked Questions"

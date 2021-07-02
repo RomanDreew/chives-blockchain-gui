@@ -356,18 +356,10 @@ if (!handleSquirrelEvent()) {
         role: 'help',
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'Chives Blockchain Wiki' }),
+            label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
             click: () => {
               openExternal(
-                'https://github.com/HiveProject2021/chives-blockchain/wiki',
-              );
-            },
-          },
-          {
-            label: i18n._(/* i18n */ { id: 'Frequently Asked Questions' }),
-            click: () => {
-              openExternal(
-                'https://github.com/HiveProject2021/chives-blockchain/wiki/FAQ',
+                'https://github.com/HiveProject2021/chives-blockchain/',
               );
             },
           },
@@ -376,14 +368,6 @@ if (!handleSquirrelEvent()) {
             click: () => {
               openExternal(
                 'https://github.com/HiveProject2021/chives-blockchain/releases',
-              );
-            },
-          },
-          {
-            label: i18n._(/* i18n */ { id: 'Contribute on GitHub' }),
-            click: () => {
-              openExternal(
-                'https://github.com/HiveProject2021/chives-blockchain/',
               );
             },
           },
@@ -418,6 +402,12 @@ if (!handleSquirrelEvent()) {
             label: i18n._(/* i18n */ { id: 'Follow on Twitter' }),
             click: () => {
               openExternal('https://twitter.com/chives_project');
+            },
+          },
+          {
+            label: i18n._(/* i18n */ { id: 'Discord' }),
+            click: () => {
+              openExternal('https://discord.gg/aEQx5f6s');
             },
           },
         ],
