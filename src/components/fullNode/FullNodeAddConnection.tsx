@@ -24,7 +24,7 @@ export default function FullNodeAddConnection(props: Props) {
     shouldUnregister: false,
     defaultValues: {
       host: 'node-us.chivescoin.org',
-      port: '9444',
+      port: '9699',
     },
   });
 

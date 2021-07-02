@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(1),
   },
   empty: {
-    backgroundColor: '#999999',
+    backgroundColor: '#969999',
     height: 100,
     width: '100%',
   },

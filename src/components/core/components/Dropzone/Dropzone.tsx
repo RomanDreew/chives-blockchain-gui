@@ -6,7 +6,7 @@ import AspectRatio from '../AspectRatio';
 import Flex from '../Flex';
 
 const StyledPaper = styled(Paper)`
-  background-color: #999999;
+  background-color: #969999;
   padding: ${({ theme }) => `${theme.spacing(1)}px ${theme.spacing(2)}px`};
 `;
 
