@@ -16,7 +16,7 @@ import {
   getBlock,
 } from '../../modules/fullnodeMessages';
 import { mojo_to_chives } from '../../util/chives';
-import { calculatePoolReward, calculateBaseFarmerReward } from '../../util/blockRewards';
+import { calculatePoolReward, calculateBaseFarmerReward, calculateBaseCommunityReward } from '../../util/blockRewards';
 import LayoutMain from '../layout/LayoutMain';
 import toBech32m from '../../util/toBech32m';
 import BlockTitle from './BlockTitle';
@@ -170,7 +170,8 @@ export default function Block() {
 
   const poolReward = mojo_to_chives(calculatePoolReward(blockRecord.height));
   const baseFarmerReward = mojo_to_chives(calculateBaseFarmerReward(blockRecord.height));
-
+  const baseCommunityReward = mojo_to_chives(calculateBaseCommunityReward(blockRecord.height));
+  
   const chivesFees = blockRecord.fees
     ? mojo_to_chives(BigInt(blockRecord.fees))
     : '';
@@ -289,6 +290,10 @@ export default function Block() {
     {
       name: <Trans>Base Farmer Reward Amount</Trans>,
       value: `${baseFarmerReward} ${currencyCode}`,
+    },
+    {
+      name: <Trans>Base Community Reward Amount</Trans>,
+      value: `${baseCommunityReward} ${currencyCode}`,
     },
     {
       name: <Trans>Fees Amount</Trans>,
