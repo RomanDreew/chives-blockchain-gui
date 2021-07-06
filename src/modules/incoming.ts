@@ -27,6 +27,7 @@ type IncomingState = {
     farmed_amount: number;
     pool_reward_amount: number;
     farmer_reward_amount: number;
+    community_reward_amount: number;
     fee_amount: number;
     last_height_farmed: number;
   };

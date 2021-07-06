@@ -15,17 +15,21 @@ export default function FarmCardBlockRewards() {
   const farmerRewardAmount = useSelector(
     (state: RootState) => state.wallet_state.farmed_amount?.farmer_reward_amount,
   );
+  
+  const communityRewardAmount = useSelector(
+    (state: RootState) => state.wallet_state.farmed_amount?.community_reward_amount,
+  );
 
   const poolRewardAmount = useSelector(
     (state: RootState) => state.wallet_state.farmed_amount?.pool_reward_amount,
   );
 
   const blockRewards = useMemo(() => {
-    if (farmerRewardAmount !== undefined && poolRewardAmount !== undefined) {
-      const val = BigInt(farmerRewardAmount.toString()) + BigInt(poolRewardAmount.toString());
+    if (farmerRewardAmount !== undefined && communityRewardAmount !== undefined && poolRewardAmount !== undefined) {
+      const val = BigInt(farmerRewardAmount.toString()) + BigInt(communityRewardAmount.toString()) + BigInt(poolRewardAmount.toString());
       return mojo_to_chives(val);
     }
-  }, [farmerRewardAmount, poolRewardAmount]);
+  }, [farmerRewardAmount, communityRewardAmount, poolRewardAmount]);
 
   return (
     <FarmCard

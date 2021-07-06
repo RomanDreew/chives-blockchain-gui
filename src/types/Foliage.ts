@@ -4,6 +4,7 @@ type Foliage = {
   foliage_block_data: {
     extension_data: string;
     farmer_reward_puzzle_hash: string;
+    community_reward_puzzle_hash: string;
     pool_signature: string;
     pool_target: {
       max_height: number;

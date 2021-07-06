@@ -5,6 +5,7 @@ type Header = {
     cost: string;
     extension_data: string;
     farmer_rewards_puzzle_hash: string;
+    community_rewards_puzzle_hash: string;
     filter_hash: string;
     finish_time: number;
     finished: boolean;

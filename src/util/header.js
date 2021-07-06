@@ -12,6 +12,7 @@ export async function hash_header(header) {
   buf = buf.concat(hex_to_array(header.data.additions_root));
   buf = buf.concat(hex_to_array(header.data.removals_root));
   buf = buf.concat(hex_to_array(header.data.farmer_rewards_puzzle_hash));
+  buf = buf.concat(hex_to_array(header.data.community_rewards_puzzle_hash));
   buf = buf.concat(
     big_int_to_array(BigInt(header.data.total_transaction_fees), 8),
   );
