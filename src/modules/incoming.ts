@@ -33,6 +33,7 @@ type IncomingState = {
   };
   reward_targets?: {
     farmer_target?: string;
+    community_target?: string;
     pool_target?: string;
   };
 };

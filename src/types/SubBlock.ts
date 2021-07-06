@@ -5,6 +5,7 @@ type SubBlock = {
   };
   deficit: number;
   farmer_puzzle_hash: string;
+  community_puzzle_hash: string;
   fees: null | string;
   finished_challenge_slot_hashes: string | null;
   finished_infused_challenge_slot_hashes: string[] | null;
