@@ -13,7 +13,7 @@ const aliases = {
 const display = {
   chives: {
     format: '{amount} CH',
-    fractionDigits: 12,
+    fractionDigits: 8,
   },
   mojo: {
     format: '{amount} MJ',

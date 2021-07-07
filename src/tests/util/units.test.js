@@ -51,7 +51,7 @@ describe("units", () => {
 
       expect(result).toEqual({
         format: "{amount} CH",
-        fractionDigits: 12
+        fractionDigits: 8
       });
     });
     it("gets display of mojo", () => {
