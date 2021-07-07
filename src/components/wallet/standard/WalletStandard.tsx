@@ -434,7 +434,7 @@ function SendCard(props: SendCardProps) {
     dispatch(send_transaction(id, amount_value, fee_value, address));
     address_input.value = '';
     amount_input.value = '';
-    fee_input.value = '';
+    fee_input.value = '0';
   }
 
   return (
