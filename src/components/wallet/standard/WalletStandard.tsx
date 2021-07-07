@@ -493,6 +493,7 @@ function SendCard(props: SendCardProps) {
               fullWidth
               color="secondary"
               margin="normal"
+			  value="0"
               disabled={sending_transaction}
               inputRef={(input) => {
                 fee_input = input;
