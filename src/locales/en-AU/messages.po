@@ -158,6 +158,10 @@ msgstr "Alcohol Balance"
 msgid "Base Farmer Reward Amount"
 msgstr "Base Farmer Reward Amount"
 
+#: src/components/block/Block.jsx:295
+msgid "Base Community Reward Amount"
+msgstr "Base Community Reward Amount"
+
 #: src/components/farm/FarmLatestBlockChallenges.tsx:25
 #: src/components/farm/FarmLatestBlockChallenges.tsx:31
 msgid "Below are the current block challenges. You may or may not have a proof of space for these challenges. These blocks do not currently contain a proof of time."
