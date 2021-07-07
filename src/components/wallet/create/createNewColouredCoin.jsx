@@ -132,7 +132,6 @@ export const CreateNewCCWallet = () => {
               variant="filled"
               color="secondary"
               fullWidth
-			  value="0"
               inputRef={(input) => {
                 fee_input = input;
               }}
