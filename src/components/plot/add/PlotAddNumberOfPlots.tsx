@@ -6,7 +6,7 @@ import { useFormContext } from 'react-hook-form';
 
 const plotCountOptions: number[] = [];
 
-for (let i = 1; i < 30; i += 1) {
+for (let i = 1; i < 100; i += 1) {
   plotCountOptions.push(i);
 }
 
