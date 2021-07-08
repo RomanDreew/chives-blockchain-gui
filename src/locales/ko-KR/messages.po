@@ -1655,7 +1655,7 @@ msgstr "농부가 연결된 전체 노드는 다음과 같습니다. <0> 자세�
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
-msgid "The minimum required size for mainnet is k=32"
+msgid "The minimum required size for mainnet is k=29"
 msgstr "mainnet을 위한 최소 사이즈는 k=32입니다."
 
 #: src/components/fullNode/FullNode.jsx:125

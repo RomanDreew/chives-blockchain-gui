@@ -108,7 +108,7 @@ export default function About(props: Props) {
             <img src={icon} />
           </StyledLogoContainer>
 
-          <StyledTitle>{productName} 1.1.800</StyledTitle>
+          <StyledTitle>{productName} 1.1.899</StyledTitle>
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />

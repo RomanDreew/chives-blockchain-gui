@@ -1655,7 +1655,7 @@ msgstr "Uzel ke kterému je váš farmer (farmář) připojen. <0>Zjistit více<
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
-msgid "The minimum required size for mainnet is k=32"
+msgid "The minimum required size for mainnet is k=29"
 msgstr "Minimální požadovaná velikost sítě je k=32"
 
 #: src/components/fullNode/FullNode.jsx:125

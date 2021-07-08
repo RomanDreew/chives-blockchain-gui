@@ -1655,7 +1655,7 @@ msgstr "Puni čvor na koji je tvoj žetelac spojen naveden je dolje niže. <0>Sa
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
-msgid "The minimum required size for mainnet is k=32"
+msgid "The minimum required size for mainnet is k=29"
 msgstr "Minimalna neophodna veličina za mainnet je k=32"
 
 #: src/components/fullNode/FullNode.jsx:125

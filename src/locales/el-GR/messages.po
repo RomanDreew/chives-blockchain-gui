@@ -1655,7 +1655,7 @@ msgstr "Ο πλήρης κόμβος στον οποίο είναι συνδεδ
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
-msgid "The minimum required size for mainnet is k=32"
+msgid "The minimum required size for mainnet is k=29"
 msgstr "Το ελάχιστο απαιτούμενο μέγεθος για το mainnet είναι k=32"
 
 #: src/components/fullNode/FullNode.jsx:125

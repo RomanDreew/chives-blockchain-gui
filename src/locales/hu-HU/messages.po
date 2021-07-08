@@ -1651,7 +1651,7 @@ msgstr "Alább látható az összes csomópont, amelyhez a bányász csatlakozik
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
-msgid "The minimum required size for mainnet is k=32"
+msgid "The minimum required size for mainnet is k=29"
 msgstr "A mainnet legkisebb megengedett mérete k=32"
 
 #: src/components/fullNode/FullNode.jsx:124
