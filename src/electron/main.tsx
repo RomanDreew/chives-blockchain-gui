@@ -407,7 +407,7 @@ if (!handleSquirrelEvent()) {
           {
             label: i18n._(/* i18n */ { id: 'Discord' }),
             click: () => {
-              openExternal('https://discord.gg/aEQx5f6s');
+              openExternal('https://discord.gg/uMmcjzjRx2');
             },
           },
         ],
