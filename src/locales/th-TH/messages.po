@@ -1652,7 +1652,7 @@ msgstr "โนดที่ผู้ฟาร์มจะเชื่อมต่
 #: src/components/plot/add/PlotAddChooseSize.tsx:30
 #: src/components/plot/add/PlotAddChooseSize.tsx:74
 msgid "The minimum required size for mainnet is k=29"
-msgstr "ขนาดขั้นต่ำที่ต้องการสำหรับ mainnet คือ k=32"
+msgstr "ขนาดขั้นต่ำที่ต้องการสำหรับ mainnet คือ K=32"
 
 #: src/components/fullNode/FullNode.jsx:124
 msgid "The node is not synced"
